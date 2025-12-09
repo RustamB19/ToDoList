@@ -6,7 +6,7 @@ import {fileURLToPath, URL} from 'node:url'
 export default defineConfig(({mode}) => {
    const isProd = mode === 'production'
   return {
-      base: isProd ? '/rustam-project' : '/',
+      base: isProd ? '/ToDoList' : '/',
       plugins: [react()],
       resolve: {
           alias: {
